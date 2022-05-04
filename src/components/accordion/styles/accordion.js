@@ -7,8 +7,10 @@ export const Container = styled.div`
 
 export const Item = styled.div`
   color: #fff;
-  margin-bottom: 10px;
   max-width: 670px;
+  margin: auto;
+  margin-bottom: 10px;
+  width: 100%;
 
   &:first-of-type {
     margin-top: 3em;
