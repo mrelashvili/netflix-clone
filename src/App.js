@@ -4,7 +4,7 @@ import * as ROUTES from './constants/routes';
 import Home from "./pages/home";
 import Browse from "./pages/browse";
 import Signup from "./pages/signup";
-import Signin from "./pages/sigin";
+import Sign from "./pages/signin";
 
 function App() {
 	return (
@@ -16,7 +16,7 @@ function App() {
 				<Signup/>
 			</Route>
 			<Route path={ROUTES.SIGN_IN}>
-				<Signin/>
+				<Sign/>
 			</Route>
 			<Route path={ROUTES.BROWSE}>
 				<Browse/>
