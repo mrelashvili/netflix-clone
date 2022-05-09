@@ -1,7 +1,7 @@
 import React from 'react';
 import {useContent} from '../hooks';
 import selectionFilter from '../utils/selection-map';
-import BrowseContainer from '../containers/browse';
+import {BrowseContainer} from '../containers/browse';
 
 const Browse = (props) => {
 	// movies & series display.. & slides
@@ -11,8 +11,7 @@ const Browse = (props) => {
 	const slides = selectionFilter({series, films})
 
 
-	return <BrowseContainer slides={slides}/>
-
+	return <BrowseContainer slides={slides} />
 
 };
 
